@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: product-service
 spec:
-  replicas: 3
+  replicas: 1
   selector:
     matchLabels:
       app: product-service
@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: product-service
-        image: your-docker-image:latest
+        image: shubham047/product-service:latest
         ports:
         - containerPort: 80
         env:
