@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'https://github.com/your-repo/order-service.git'
+    repoURL: 'https://github.com/shubhamstark/arogcd-demo.git'
     targetRevision: HEAD
     path: kubernetes
   destination:
